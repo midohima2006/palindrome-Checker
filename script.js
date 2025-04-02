@@ -1,8 +1,10 @@
 const chckBtn = document.getElementById("check-btn");
+const resetBtn = document.getElementById("reset-btn");
+const inputField = document.getElementById("text-input");
 const resultsDiv = document.getElementById("results-div");
 const result = document.getElementById("result");
 const chckpd = () => {
-  const inputField = document.getElementById("text-input");
+  
   const rawTxt = inputField.value;
   if (rawTxt === "") {
     alert("Please input a value");
@@ -17,4 +19,12 @@ const chckpd = () => {
     }
   }
 };
+const reset = () => {
+  resultsDiv.style.display = "none";
+  inputField.value = "";
+  result.innerText = "";
+  inputField.focus();
+};
+resetBtn.addEventListener("click", reset);
+// Add event listener to the button
 chckBtn.addEventListener("click", chckpd);

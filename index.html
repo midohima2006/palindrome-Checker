@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Palindrome checker</title>
+  <title>Palindrome Checker</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,19 +13,70 @@
 
 <body>
   <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h2>Discover Palindromes!</h2>
+      <p>
+        A palindrome is a word, phrase, or number that reads the same backward as forward.<br>
+        Try it out and see if your text is a palindrome!
+      </p>
+    </section>
+
     <h1>Palindrome Checker</h1>
     <div id="input-div">
       <label for="text-input">
         Is this a palindrome?
       </label>
-      <input type="text" id="text-input" name="text-input" placeholder="let's begin, give me some text!">
-      <button id="check-btn">check</button>
+      <input type="text" id="text-input" name="text-input" placeholder="Let's begin, give me some text!">
+      <button id="check-btn">Check</button>
     </div>
     <div id="results-div">
       <p id="result"></p>
       <button id="reset-btn">Try another one?</button>
     </div>
 
+    <!-- Features Section -->
+    <section id="features">
+      <h3>Features</h3>
+      <ul>
+        <li>Instant palindrome validation</li>
+        <li>Works with words, phrases, and numbers</li>
+        <li>Mobile-friendly design</li>
+        <li>Fun facts about palindromes</li>
+      </ul>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section id="fun-facts">
+      <h3>Did You Know?</h3>
+      <p>
+        "A man, a plan, a canal, Panama" is one of the most famous palindromes.<br>
+        The longest single-word palindrome in English is "tattarrattat".
+      </p>
+    </section>
+
+    <!-- Portfolio Call-to-Action -->
+    <section id="cta">
+      <h3>Want a custom web app?</h3>
+      <p>
+        I build interactive, user-friendly tools for businesses and individuals.<br>
+        <button id="contact-btn" class="cta-link">Contact me for your project!</button>
+      </p>
+    </section>
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close-modal">&times;</span>
+        <h4>Contact Me</h4>
+        <p>Choose your preferred method:</p>
+        <div class="contact-options">
+          <a href="mailto:ahmed.e.makhloof@gmail.com" target="_blank" class="contact-option email">Email</a>
+          <a href="https://wa.me/+201210667749" target="_blank" class="contact-option whatsapp">WhatsApp</a>
+          <a href="https://www.linkedin.com/in/ahmed-makhloof-7803b94a/" target="_blank" class="contact-option linkedin">LinkedIn</a>
+          <a href="https://www.facebook.com/Ahmed15072011/" target="_blank" class="contact-option facebook">Facebook</a>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="./script.js"></script>
 </body>

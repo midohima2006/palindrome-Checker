@@ -1,5 +1,9 @@
+
 const chckBtn = document.getElementById("check-btn");
 const resetBtn = document.getElementById("reset-btn");
+const contactBtn = document.getElementById('contact-btn');
+const contactModal = document.getElementById('contact-modal');
+const closeModal = document.getElementById('close-modal');
 const inputField = document.getElementById("text-input");
 const resultsDiv = document.getElementById("results-div");
 const result = document.getElementById("result");
@@ -28,3 +32,14 @@ const reset = () => {
 resetBtn.addEventListener("click", reset);
 // Add event listener to the button
 chckBtn.addEventListener("click", chckpd);
+contactBtn.addEventListener('click', () => {
+  contactModal.style.display = 'flex';
+});
+closeModal.addEventListener('click', () => {
+  contactModal.style.display = 'none';
+});
+window.addEventListener('click', (e) => {
+  if (e.target === contactModal) {
+    contactModal.style.display = 'none';
+  }
+});

@@ -31,8 +31,8 @@ main {
 
 /* Hero Section */
 #hero {
-  width: 100%;
-  margin-bottom: 2vh;
+  width: 95%;
+  
   border-radius: 12px;
   box-shadow: var(--shadow);
   background: var(--light-grey);
@@ -69,7 +69,7 @@ h1 {
   align-items: center;
   gap: 1.2em;
   margin: 0 auto 2vh auto;
-  width: 100%;
+  width: 95%;
   max-width: 500px;
   background: var(--light-grey);
   border-radius: 12px;
@@ -217,11 +217,12 @@ button:hover, .cta-link:hover {
   display: inline-block;
   background: var(--fire-red);
   color: var(--light-grey);
-  padding: 1.2em 1.2em
+  padding: 1.2em 1.2em;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.2s, color 0.2s;
+  height: auto;
 }
 
 /* Responsive Design */

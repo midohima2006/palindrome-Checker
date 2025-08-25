@@ -222,6 +222,7 @@ button:hover, .cta-link:hover {
   text-decoration: none;
   font-weight: bold;
   transition: background 0.2s, color 0.2s;
+  height: auto;
 }
 
 /* Responsive Design */

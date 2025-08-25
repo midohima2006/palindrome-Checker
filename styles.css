@@ -31,7 +31,7 @@ main {
 
 /* Hero Section */
 #hero {
-  width: 100%;
+  width: 95%;
   margin-bottom: 2vh;
   border-radius: 12px;
   box-shadow: var(--shadow);
@@ -69,7 +69,7 @@ h1 {
   align-items: center;
   gap: 1.2em;
   margin: 0 auto 2vh auto;
-  width: 100%;
+  width: 95%;
   max-width: 500px;
   background: var(--light-grey);
   border-radius: 12px;
